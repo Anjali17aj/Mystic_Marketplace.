@@ -1,2 +1,3 @@
 # Mystic_Marketplace.
-An online website which provides Design and Development services, Clothing, Resin art and goods.
+Mystic Marketplace is an online website that provides Design and Development services, Clothing for women, Resin art materials, and goods.
+Happy Shopping:)
