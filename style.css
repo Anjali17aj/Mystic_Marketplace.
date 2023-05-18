@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:monospace;
+}
+
+img{
+    width: 230px;
+    border-radius: 5px;
+    border: 8px solid white;
+}
+
+.main{
+    width: 100vw;
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.content>h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content>div{
+    display: flex;
+    width: 100%;
+}
+
+.left,.right{
+    display: flex;
+    width: 50vw;
+    padding: 2rem;
+}
+
+.left>div,.right>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+footer{
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1px;
+}
+
+@media only screen and (max-width:1160px) {
+    .content>div{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
+
+@media  only screen and (max-width:598px) {
+    .content>h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .content>h3{
+        text-align: center;
+    }
+
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card>div{
+        text-align: center;
+    }
+}
